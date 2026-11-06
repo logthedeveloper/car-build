@@ -33,49 +33,49 @@
     {
       "size": "64x64",
       "idiom": "iphone",
-      "filename": "Icon-64@2x.png",
+      "filename": "Icon-60@3x.png",
       "scale": "2x"
     },
     {
       "size": "68x68",
       "idiom": "iphone",
-      "filename": "Icon-68@2x.png",
+      "filename": "Icon-60@3x.png",
       "scale": "2x"
     },
     {
       "size": "76x76",
       "idiom": "iphone",
-      "filename": "Icon-76@2x.png",
+      "filename": "Icon-60@3x.png",
       "scale": "2x"
     },
     {
       "size": "83.5x83.5",
       "idiom": "iphone",
-      "filename": "Icon-83.5@2x.png",
+      "filename": "Icon-60@3x.png",
       "scale": "2x"
     },
     {
       "size": "20x20",
       "idiom": "iphone",
-      "filename": "Icon-Notification@3x.png",
+      "filename": "Icon-60@3x.png",
       "scale": "3x"
     },
     {
       "size": "29x29",
       "idiom": "iphone",
-      "filename": "Icon-Small@3x.png",
+      "filename": "Icon-60@3x.png",
       "scale": "3x"
     },
     {
       "size": "38x38",
       "idiom": "iphone",
-      "filename": "Icon-38@3x.png",
+      "filename": "Icon-60@3x.png",
       "scale": "3x"
     },
     {
       "size": "40x40",
       "idiom": "iphone",
-      "filename": "Icon-Small-40@3x.png",
+      "filename": "Icon-60@3x.png",
       "scale": "3x"
     },
     {
@@ -87,7 +87,7 @@
     {
       "size": "64x64",
       "idiom": "iphone",
-      "filename": "Icon-64@3x.png",
+      "filename": "Icon-60@3x.png",
       "scale": "3x"
     }
   ],
