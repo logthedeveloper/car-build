@@ -1,0 +1,27 @@
+name: Build Assets.car
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile asset catalog
+        run: |
+          mkdir -p out
+          xcrun actool Assets.xcassets \
+            --compile out \
+            --platform iphoneos \
+            --minimum-deployment-target 15.0 \
+            --target-device iphone \
+            --target-device ipad \
+            --output-partial-info-plist out/partial.plist
+          ls -l out
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Assets-car
+          path: out/Assets.car
